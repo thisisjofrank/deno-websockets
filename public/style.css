@@ -13,8 +13,8 @@ header {
     height: 3rem;
     padding: 1rem;
     background-color: #0b0d11;
-    color: white;
     text-align: center;
+    color: white;
 
     & h1 {
         margin: 0;
@@ -88,7 +88,7 @@ button {
 
         & span {
             display: block;
-            font-weight: bold;
             margin-bottom: .5rem;
+            font-weight: bold;
         }
     }
