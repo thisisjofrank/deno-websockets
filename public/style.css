@@ -79,7 +79,7 @@ button {
 
 #conversation {
     display: flex; 
-  flex-direction: column-reverse; 
+    flex-direction: column-reverse; 
     overflow-y: scroll;
 
     & div {

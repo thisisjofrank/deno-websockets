@@ -34,7 +34,7 @@ function addMessage(username, message) {
   const conversation = document.getElementById("conversation");
   const messageDiv = document.createElement("div");
   messageDiv.innerHTML = `<span>${username}</span> ${message}`;
-  conversation.appendChild(messageDiv);
+  conversation.prepend(messageDiv);
 }
 
 // Set up event listener for sending messages
